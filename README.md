@@ -1,4 +1,4 @@
-# Django Project Lily
+# Django Project
 
 A Django Rest API project for Online Pizza Shop Backend.
 
@@ -85,4 +85,18 @@ Just run this command:
 
 ```
 python manage.py test
+```
+
+### Create Superuser
+Create superuser with phone number and password and consider superuser will be store managers of
+the pizza shop.
+
+```
+python manage.py createsuperuser
+```
+
+### Login Admin Panel with phone number and password
+Admin Panel URL
+```
+http://127.0.0.1:8000/admin
 ```
