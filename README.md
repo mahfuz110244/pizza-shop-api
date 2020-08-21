@@ -1,6 +1,13 @@
-# Django Project
+# Django Rest API Project
 
 A Django Rest API project for Online Pizza Shop Backend.
+
+## Technology:
+* Core Language: Python 3.8
+* Frameworks: Django 3.1, DRF 3.11.1
+* Database: PostgreSQL 10.13
+
+I think you have already install python v3.8 and postgreSQL v10.13 in your machine.
 
 ## Create PostgreSQL DB and User
 
@@ -43,7 +50,7 @@ git clone https://github.com/mahfuz110244/pizza-shop-api.git
 
 ### Go to the project directory
 ```
-cd pizza-shop-api
+cd pizza-shop-api/
 ```
 
 ### Install dependencies & activate virtualenv
@@ -57,7 +64,7 @@ source venv/bin/activate
 
 ### Install requirements inside virtual environment:
 ```
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 ### Make a .env file and configure your necessary parameter(see env.example):
