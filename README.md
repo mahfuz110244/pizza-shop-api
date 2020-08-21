@@ -41,6 +41,11 @@ exit
 git clone https://github.com/mahfuz110244/pizza-shop-api.git
 ```
 
+### Go to the project directory
+```
+cd pizza-shop-api
+```
+
 ### Install dependencies & activate virtualenv
 
 ```
