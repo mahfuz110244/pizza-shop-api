@@ -77,7 +77,8 @@ touch .env
 ### Apply migrations
 
 ```
-python manage.py makemigrations
+python manage.py makemigrations user
+python manage.py makemigrations shop
 python manage.py migrate
 ```
 
